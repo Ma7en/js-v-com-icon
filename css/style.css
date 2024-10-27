@@ -1,0 +1,624 @@
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color: red;
+    --main-transition: all .5s;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+
+
+/* start icon all */
+.icon {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+.icon > .container {
+    min-height: 100vh;
+    position: relative;
+}
+
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* bast background-color 
+background-color: #15212d;
+
+
+
+*/
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start icon 1 */
+.icon-1 {
+    background: #000;
+    font-family: sans-serif;
+}
+
+.icon-1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-1 ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 100px;
+}
+
+.icon-1 ul li {
+    list-style: none;
+}
+
+.icon-1 ul li a {
+    position: relative;
+}
+
+.icon-1 ul li a i {
+    font-size: 40px;
+    color: #333;
+    line-height: 80px;
+    padding-right: 10px;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.icon-1 ul li a span {
+    text-transform: capitalize;
+    position: absolute;
+    top: 30px;
+    color: #333;
+    text-align: center;
+    letter-spacing: 4px;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.icon-1 ul .a a {
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: left;
+    padding-left: 20px;
+    box-shadow: -20px 20px 10px rgba(50, 243, 0, 1);
+    transition: var(--main-transition);
+    transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -webkit-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -moz-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -ms-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -o-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.icon-1 ul .b a {
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: left;
+    padding-left: 20px;
+    box-shadow: -20px 20px 10px rgba(243, 2, 0, 1);
+    transition: var(--main-transition);
+    transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -webkit-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -moz-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -ms-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -o-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.icon-1 ul .c a {
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: left;
+    padding-left: 20px;
+    box-shadow: -20px 20px 10px rgba(5, 30, 255, 1);
+    transition: var(--main-transition);
+    transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -webkit-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -moz-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -ms-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -o-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.icon-1 ul .d a {
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: left;
+    padding-left: 20px;
+    box-shadow: -20px 20px 10px rgba(249, 253, 11, 1);
+    transition: var(--main-transition);
+    transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -webkit-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -moz-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -ms-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -o-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.icon-1 ul .e a {
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: left;
+    padding-left: 20px;
+    box-shadow: -20px 20px 10px rgba(176, 11, 253, 1);
+    transition: var(--main-transition);
+    transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -webkit-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -moz-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -ms-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -o-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.icon-1 ul li a::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transform: rotate(0deg) skewY(-45deg);
+    -webkit-transform: rotate(0deg) skewY(-45deg);
+    -moz-transform: rotate(0deg) skewY(-45deg);
+    -ms-transform: rotate(0deg) skewY(-45deg);
+    -o-transform: rotate(0deg) skewY(-45deg);
+}
+
+.icon-1 ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    transform: rotate(0deg) skewX(-45deg);
+    -webkit-transform: rotate(0deg) skewX(-45deg);
+    -moz-transform: rotate(0deg) skewX(-45deg);
+    -ms-transform: rotate(0deg) skewX(-45deg);
+    -o-transform: rotate(0deg) skewX(-45deg);
+}
+
+.icon-1 ul .a a:hover {
+    box-shadow: -50px 50px 50px rgba(50, 243, 0, 1);
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -webkit-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -moz-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -ms-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -o-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+}
+
+.icon-1 ul .b a:hover {
+    box-shadow: -50px 50px 50px rgba(243, 2, 0, 1);
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -webkit-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -moz-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -ms-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -o-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+}
+
+.icon-1 ul .c a:hover {
+    box-shadow: -50px 50px 50px rgba(5, 30, 255, 1);
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -webkit-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -moz-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -ms-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -o-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+}
+
+.icon-1 ul .d a:hover {
+    box-shadow: -50px 50px 50px rgba(249, 253, 11, 1);
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -webkit-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -moz-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -ms-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -o-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+}
+
+.icon-1 ul .e a:hover {
+    box-shadow: -50px 50px 50px rgba(176, 11, 253, 1);
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -webkit-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -moz-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -ms-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    -o-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+}
+
+.icon-1 ul li:hover i {
+    color: #fff;
+}
+
+.icon-1 ul li:hover span {
+    color: #fff;
+}
+
+.icon-1 ul .a:hover a {
+    background: #00ff00;
+}
+
+.icon-1 ul .a:hover a::before {
+    background: #0c630c;
+}
+
+.icon-1 ul .a:hover a::after {
+    background: #3bd33b;
+}
+
+.icon-1 ul .b:hover a {
+    background: #f00;
+}
+
+.icon-1 ul .b:hover a::before {
+    background: #630c0c;
+}
+
+.icon-1 ul .b:hover a::after {
+    background: #d33b3b;
+}
+
+.icon-1 ul .c:hover a {
+    background: #002fff;
+}
+
+.icon-1 ul .c:hover a::before {
+    background: #0c1563;
+}
+
+.icon-1 ul .c:hover a::after {
+    background: #3b64d3;
+}
+
+.icon-1 ul .d:hover a {
+    background: #d9ff00;
+}
+
+.icon-1 ul .d:hover a::before {
+    background: #61630c;
+}
+
+.icon-1 ul .d:hover a::after {
+    background: #c9d33b;
+}
+
+.icon-1 ul .e:hover a {
+    background: #cc00ff;
+}
+
+.icon-1 ul .e:hover a::before {
+    background: #630c63;
+}
+
+.icon-1 ul .e:hover a::after {
+    background: #c13bd3;
+}
+
+
+
+
+
+
+/* end icon 1 */
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start icon 2 */
+
+.icon-2 {
+    background: #151515;
+}
+
+.icon-2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-2 .links {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.icon-2 .links li {
+    margin-right: 10px;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.icon-2 .links a {
+    overflow: hidden;
+    background-color: #313131;
+    color: #b9b9b9;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.icon-2 .links a::before {
+    overflow: hidden;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transition: var(--main-transition);
+    transform: skewX(45deg) translateX(150px);
+    -webkit-transform: skewX(45deg) translateX(150px);
+    -moz-transform: skewX(45deg) translateX(150px);
+    -ms-transform: skewX(45deg) translateX(150px);
+    -o-transform: skewX(45deg) translateX(150px);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.icon-2 .links a:hover::before {
+    transform: skewX(45deg) translateX(-150px);
+    -webkit-transform: skewX(45deg) translateX(-150px);
+    -moz-transform: skewX(45deg) translateX(-150px);
+    -ms-transform: skewX(45deg) translateX(-150px);
+    -o-transform: skewX(45deg) translateX(-150px);
+}
+
+.icon-2 .links a:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.icon-2 .links a:hover i {
+    color: #fff;
+}
+
+.icon-2 .links a i {
+    color: var(--main-color, #10cab7);
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+
+
+/* end icon 2 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start icon 3 */
+
+
+
+/* end icon 3 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start icon 4 */
+
+
+
+/* end icon 4 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start icon 5 */
+
+
+
+/* end icon 5 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start icon 6 */
+
+
+
+/* end icon 6 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start icon 7 */
+
+
+
+/* end icon 7 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start icon 8 */
+
+
+
+/* end icon 8 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start icon 9 */
+
+
+
+/* end icon 9 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start icon 10 */
+
+
+
+/* end icon 10 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start icon 11 */
+
+
+
+/* end icon 11 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
